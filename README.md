@@ -1,2 +1,8 @@
-# -An-Integrated-Framework-For-Predicting-Financial-Behaviour-Using-Deep-Learning
+# An-Integrated-Framework-For-Predicting-Financial-Behaviour-Using-Deep-Learning
 Financial planning plays a vital role in building a secure and stable future. As the complexity of individual expenses and income patterns increases, understanding financial behavior through data becomes essential. In this study, we focus on predicting financial risk and potential savings by analyzing critical personal finance attributes such as income, spending habits, rent obligations, and loan repayments. The dataset was first cleaned and normalized to ensure consistency and accuracy. We then applied KMeans clustering to segment users based on similar financial behavior, enabling a deeper understanding of distinct financial profiles. Following the clustering stage, we employed advanced machine learning algorithms, specifically XGBoost and Artificial Neural Networks (ANNs), to predict each user's level of financial risk and likelihood of savings. These models were trained and evaluated on the processed dataset, and their performance was measured using accuracy and confusion matrices. Our results show that both models achieved high levels of accuracy, indicating their effectiveness in identifying financial patterns and making reliable predictions. This approach demonstrates the potential of machine learning in personal finance management and offers a promising step towards intelligent financial planning tools that can guide users toward better decision-making.
+# 🧭 Project Workflow
+![image](https://github.com/user-attachments/assets/3f37eb5f-d1b5-426f-beba-d33c0eb4038b)
+# Author
+* Harish Reddy Singireddy
+# Guide
+* Kranthi Reddy
