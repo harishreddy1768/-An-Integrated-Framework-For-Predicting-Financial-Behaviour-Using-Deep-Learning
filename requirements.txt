@@ -1,8 +1,9 @@
 streamlit
-pandas>=2.1.1
-numpy>=1.26.0
-scikit-learn
-tensorflow
+pandas
+numpy
+joblib
+keras
 matplotlib
 seaborn
-joblib
+xgboost
+scikit-learn
