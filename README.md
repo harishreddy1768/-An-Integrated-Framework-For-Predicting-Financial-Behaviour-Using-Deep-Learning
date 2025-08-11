@@ -1,5 +1,74 @@
-# An-Integrated-Framework-For-Predicting-Financial-Behaviour-Using-Deep-Learning
-Financial planning plays a vital role in building a secure and stable future. As the complexity of individual expenses and income patterns increases, understanding financial behavior through data becomes essential. In this study, we focus on predicting financial risk and potential savings by analyzing critical personal finance attributes such as income, spending habits, rent obligations, and loan repayments. The dataset was first cleaned and normalized to ensure consistency and accuracy. We then applied KMeans clustering to segment users based on similar financial behavior, enabling a deeper understanding of distinct financial profiles. Following the clustering stage, we employed advanced machine learning algorithms, specifically XGBoost and Artificial Neural Networks (ANNs), to predict each user's level of financial risk and likelihood of savings. These models were trained and evaluated on the processed dataset, and their performance was measured using accuracy and confusion matrices. Our results show that both models achieved high levels of accuracy, indicating their effectiveness in identifying financial patterns and making reliable predictions. This approach demonstrates the potential of machine learning in personal finance management and offers a promising step towards intelligent financial planning tools that can guide users toward better decision-making.
+# 📊 An Integrated Framework for Predicting Financial Behaviour Using Deep Learning
+
+**Live App:** [financialbehaviour178.streamlit.app](https://financialbehaviour178.streamlit.app/)
+
+## 🚀 Overview
+
+This project is a **Streamlit-based web application** that predicts financial behaviour using a combination of **XGBoost** and **Artificial Neural Networks (ANN)**.
+The model takes user-provided financial data, processes it through a pre-trained pipeline, and outputs a prediction that can assist in decision-making.
+
+## 🧠 Features
+
+* 📥 **User Input**: Enter financial parameters directly into the web app.
+* ⚙ **Preprocessing Pipeline**: Automatic data cleaning and transformation.
+* 🔮 **ML Models**:
+
+  * **XGBoost** for feature-based classification.
+  * **ANN** for deep learning prediction.
+* 📊 **Visualization**: Displays prediction results and key insights using Matplotlib & Seaborn.
+
+## 🛠 Tech Stack
+
+* **Frontend:** Streamlit
+* **Backend:** Python
+* **ML Libraries:**
+
+  * Pandas, NumPy
+  * XGBoost
+  * Keras / TensorFlow
+  * Scikit-learn
+  * Joblib
+* **Visualization:** Matplotlib, Seaborn
+
+## 📦 Installation & Running Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/harishreddy1768/-An-Integrated-Framework-For-Predicting-Financial-Behaviour-Using-Deep-Learning.git
+
+# 2. Navigate into the project folder
+cd -An-Integrated-Framework-For-Predicting-Financial-Behaviour-Using-Deep-Learning
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run app.py
+```
+
+## 📂 Project Structure
+
+```
+├── app.py                  # Main Streamlit app
+├── model_xgb.pkl           # Pre-trained XGBoost model
+├── model_ann.h5            # Pre-trained ANN model
+├── preprocessor.pkl        # Data preprocessing pipeline
+├── requirements.txt        # Python dependencies
+└── README.md               # Project documentation
+```
+
+## 📈 Usage
+
+1. Open the [live app](https://financialbehaviour178.streamlit.app/).
+2. Enter the required financial details in the form.
+3. Click **Predict** to view results.
+4. Explore visual insights and model outputs.
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+---
+If you like this project, ⭐ star the repo!
 # 🧭 Project Workflow
 ![image](https://github.com/user-attachments/assets/3f37eb5f-d1b5-426f-beba-d33c0eb4038b)
 # Author
